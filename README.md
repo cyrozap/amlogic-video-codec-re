@@ -11,13 +11,14 @@ AMRISC CPU.
 
 * [GNU Make](https://www.gnu.org/software/make/)
 * [curl](https://curl.se/)
+* [Python 3](https://www.python.org/)
 
 
 ### Procedure
 
 1. Run `make download` to download the firmware/microcode binaries from the
-   linux-firmware repo.
-2. The firmware files will now be in the [firmware](firmware) directory.
+   linux-firmware repo into the [firmware](firmware) directory.
+2. Disassemble the binaries using `disasm.py`.
 
 
 ## Reverse engineering notes
