@@ -18,6 +18,6 @@
 
 * Custom ISA?
   * 28-bit little-endian instruction words.
-    * Highest 5 bits are the opcode?
+    * Highest 6 bits are the opcode?
   * Constant data must be loaded using instruction immediates.
   * Separate code and data memories.
